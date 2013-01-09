@@ -1,0 +1,1365 @@
+# depslib dependency file v1.0
+1355288333 source:c:\users\mastershihochief\documents\github\game\enemy.cpp
+	"Enemy.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\enemy.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\entity.h
+
+1355288333 c:\users\mastershihochief\documents\github\game\resourcemanager.h
+	<iostream>
+	<map>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1355288333 c:\users\mastershihochief\documents\github\game\level.h
+	<string>
+	<vector>
+	<map>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"Box2D/Box2D.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\level.cpp
+	"level.h"
+	<iostream>
+	"tinyxml/tinyxml.h"
+
+1355288334 c:\users\mastershihochief\documents\github\game\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1355288334 c:\users\mastershihochief\documents\github\game\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\player.cpp
+	"Player.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\player.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+	"decay_timer.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\mkeyboard.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	<sstream>
+	"SFML/Window.hpp"
+	<cstdlib>
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cpcheckbox.cpp
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpgui_base.h
+	<cmath>
+	<cstring>
+	<fstream>
+	<map>
+	<sstream>
+	<vector>
+	<SFML/Graphics.hpp>
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpcheckbox.h
+	"cpGUI_base.h"
+	"cpButton.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpbutton.h
+	"cpObject.h"
+	"cpGuiContainer.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpobject.h
+	"cpGuiContainer.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpguicontainer.h
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cpgui_base.cpp
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+	"cpButton.h"
+	"cpScrollBar.h"
+	<stdexcept>
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpscrollbar.h
+	"cpGuiContainer.h"
+	"cpButton.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cpimagebutton.cpp
+	"cpGUI_base.h"
+	"cpImageButton.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpimagebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cpselection-dropdownbox.cpp
+	"cpGUI_base.h"
+	"cpSelection-DropDownBox.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpselection-dropdownbox.h
+	"cpGUI_base.h"
+	"cpScrollBar.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cpshapebutton.cpp
+	"cpGUI_base.h"
+	"cpShapeButton.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpshapebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cptextbox.cpp
+	"cpGUI_base.h"
+	"cpTextBox.h"
+	<cstring>
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cptextbox.h
+	"cpGUI_base.h"
+	"cpObject.h"
+	"cpScrollBar.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\cpgui\cptextinputbox.cpp
+	"cpGUI_base.h"
+	"cpTextInputBox.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cptextinputbox.h
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\game.cpp
+	"game.h"
+	"mKeyboard.h"
+	"MyContactListener.h"
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+	"Terrain.h"
+	"Weapons.h"
+	"Possession_manager.h"
+	"projectile_manager.h"
+	"decay_timer.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\game.h
+	"screen.h"
+	<iostream>
+	"Box2D/Box2D.h"
+	"Level.h"
+	<sstream>
+	"Player.h"
+	"Enemy.h"
+	"projectiles.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\screen.h
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\resourcemanager.cpp
+	"resourcemanager.h"
+
+1355288334 source:c:\users\mastershihochief\documents\github\game\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1355288334 source:c:\users\mastershihochief\documents\github\game\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1355288334 source:c:\users\mastershihochief\documents\github\game\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1355288334 source:c:\users\mastershihochief\documents\github\game\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\main.cpp
+	"screen_mainmenu.h"
+	"screen_setting.h"
+	"game.h"
+	"mKeyboard.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\screen_mainmenu.h
+	"screen.h"
+	<iostream>
+	<cstring>
+	<string>
+	<windows.h>
+	<fstream>
+	"mKeyboard.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\screen_setting.h
+	"screen.h"
+	"config.h"
+	"cpGUI/cpGUI.h"
+	<sstream>
+	"mKeyboard.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\config.h
+	<fstream>
+	<vector>
+	"SFML/Audio.hpp"
+	"Screen.h"
+	<sstream>
+
+1355288333 c:\users\mastershihochief\documents\github\game\cpgui\cpgui.h
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+	"cpImageButton.h"
+	"cpSelection-DropDownBox.h"
+	"cpShapeButton.h"
+	"cpTextBox.h"
+	"cpTextInputBox.h"
+
+1355270881 source:c:\users\kevin\desktop\sfml\game\enemy.cpp
+	"Enemy.h"
+
+1355266763 c:\users\kevin\desktop\sfml\game\enemy.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1354822012 c:\users\kevin\desktop\sfml\game\entity.h
+
+1355269338 c:\users\kevin\desktop\sfml\game\resourcemanager.h
+	<iostream>
+	<map>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1354822012 c:\users\kevin\desktop\sfml\game\level.h
+	<string>
+	<vector>
+	<map>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"Box2D/Box2D.h"
+
+1354822012 source:c:\users\kevin\desktop\sfml\game\level.cpp
+	"level.h"
+	<iostream>
+	"tinyxml/tinyxml.h"
+
+1354822017 c:\users\kevin\desktop\sfml\game\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1354822017 c:\users\kevin\desktop\sfml\game\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cpcheckbox.cpp
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpgui_base.h
+	<cmath>
+	<cstring>
+	<fstream>
+	<map>
+	<sstream>
+	<vector>
+	<SFML/Graphics.hpp>
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpcheckbox.h
+	"cpGUI_base.h"
+	"cpButton.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpbutton.h
+	"cpObject.h"
+	"cpGuiContainer.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpobject.h
+	"cpGuiContainer.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpguicontainer.h
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cpgui_base.cpp
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+	"cpButton.h"
+	"cpScrollBar.h"
+	<stdexcept>
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpscrollbar.h
+	"cpGuiContainer.h"
+	"cpButton.h"
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cpimagebutton.cpp
+	"cpGUI_base.h"
+	"cpImageButton.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpimagebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cpselection-dropdownbox.cpp
+	"cpGUI_base.h"
+	"cpSelection-DropDownBox.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpselection-dropdownbox.h
+	"cpGUI_base.h"
+	"cpScrollBar.h"
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cpshapebutton.cpp
+	"cpGUI_base.h"
+	"cpShapeButton.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpshapebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cptextbox.cpp
+	"cpGUI_base.h"
+	"cpTextBox.h"
+	<cstring>
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cptextbox.h
+	"cpGUI_base.h"
+	"cpObject.h"
+	"cpScrollBar.h"
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\cpgui\cptextinputbox.cpp
+	"cpGUI_base.h"
+	"cpTextInputBox.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cptextinputbox.h
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+
+1355261203 source:c:\users\kevin\desktop\sfml\game\game.cpp
+	"game.h"
+	"mKeyboard.h"
+	"MyContactListener.h"
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+	"Terrain.h"
+	"Weapons.h"
+	"Possession_manager.h"
+	"projectile_manager.h"
+	"decay_timer.h"
+
+1355260459 c:\users\kevin\desktop\sfml\game\game.h
+	"screen.h"
+	<iostream>
+	"Box2D/Box2D.h"
+	"Level.h"
+	<sstream>
+	"Player.h"
+	"Enemy.h"
+	"projectiles.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\screen.h
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+
+1355267844 c:\users\kevin\desktop\sfml\game\player.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+	"decay_timer.h"
+
+1354842606 c:\users\kevin\desktop\sfml\game\mkeyboard.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	<sstream>
+	"SFML/Window.hpp"
+	<cstdlib>
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\main.cpp
+	"screen_mainmenu.h"
+	"screen_setting.h"
+	"game.h"
+	"mKeyboard.h"
+
+1354822017 c:\users\kevin\desktop\sfml\game\screen_mainmenu.h
+	"screen.h"
+	<iostream>
+	<cstring>
+	<string>
+	<windows.h>
+	<fstream>
+	"mKeyboard.h"
+
+1354822017 c:\users\kevin\desktop\sfml\game\screen_setting.h
+	"screen.h"
+	"config.h"
+	"cpGUI/cpGUI.h"
+	<sstream>
+	"mKeyboard.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\config.h
+	<fstream>
+	<vector>
+	"SFML/Audio.hpp"
+	"Screen.h"
+	<sstream>
+
+1354822013 c:\users\kevin\desktop\sfml\game\cpgui\cpgui.h
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+	"cpImageButton.h"
+	"cpSelection-DropDownBox.h"
+	"cpShapeButton.h"
+	"cpTextBox.h"
+	"cpTextInputBox.h"
+
+1354822017 source:c:\users\kevin\desktop\sfml\game\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1354822017 source:c:\users\kevin\desktop\sfml\game\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1354822017 source:c:\users\kevin\desktop\sfml\game\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1354822017 source:c:\users\kevin\desktop\sfml\game\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1355265762 source:c:\users\kevin\desktop\sfml\game\player.cpp
+	"Player.h"
+
+1355269748 source:c:\users\kevin\desktop\sfml\game\resourcemanager.cpp
+	"resourcemanager.h"
+
+1355263348 c:\users\kevin\desktop\sfml\game\mycontactlistener.h
+	"Entity.h"
+	"projectiles.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"Possession_manager.h"
+
+1353451604 c:\users\kevin\desktop\sfml\game\tile.h
+
+1353449871 source:c:\users\kevin\desktop\sfml\gamebackup1\enemy.cpp
+	"Enemy.h"
+
+1353450713 c:\users\kevin\desktop\sfml\gamebackup1\enemy.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1353449495 c:\users\kevin\desktop\sfml\gamebackup1\entity.h
+
+1352203851 c:\users\kevin\desktop\sfml\gamebackup1\resourcemanager.h
+	<iostream>
+	<map>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1353451760 c:\users\kevin\desktop\sfml\gamebackup1\level.h
+	<string>
+	<vector>
+	<map>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"Box2D/Box2D.h"
+
+1352173496 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpcheckbox.cpp
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpgui_base.h
+	<cmath>
+	<cstring>
+	<fstream>
+	<map>
+	<sstream>
+	<vector>
+	<SFML/Graphics.hpp>
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpcheckbox.h
+	"cpGUI_base.h"
+	"cpButton.h"
+
+1352173496 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpbutton.h
+	"cpObject.h"
+	"cpGuiContainer.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpobject.h
+	"cpGuiContainer.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpguicontainer.h
+
+1352173497 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpgui_base.cpp
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+	"cpButton.h"
+	"cpScrollBar.h"
+	<stdexcept>
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpscrollbar.h
+	"cpGuiContainer.h"
+	"cpButton.h"
+
+1352173497 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpimagebutton.cpp
+	"cpGUI_base.h"
+	"cpImageButton.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpimagebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1352173497 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpselection-dropdownbox.cpp
+	"cpGUI_base.h"
+	"cpSelection-DropDownBox.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpselection-dropdownbox.h
+	"cpGUI_base.h"
+	"cpScrollBar.h"
+
+1352173497 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpshapebutton.cpp
+	"cpGUI_base.h"
+	"cpShapeButton.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpshapebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1352173497 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cptextbox.cpp
+	"cpGUI_base.h"
+	"cpTextBox.h"
+	<cstring>
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cptextbox.h
+	"cpGUI_base.h"
+	"cpObject.h"
+	"cpScrollBar.h"
+
+1352173497 source:c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cptextinputbox.cpp
+	"cpGUI_base.h"
+	"cpTextInputBox.h"
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cptextinputbox.h
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+
+1353442999 source:c:\users\kevin\desktop\sfml\gamebackup1\game.cpp
+	"game.h"
+	"mKeyboard.h"
+	"MyContactListener.h"
+	<SFML/Audio.hpp>
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\game.h
+	"screen.h"
+	<iostream>
+	"Box2D/Box2D.h"
+	"Level.h"
+	<sstream>
+	"Player.h"
+	"Enemy.h"
+
+1352173496 c:\users\kevin\desktop\sfml\gamebackup1\screen.h
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+
+1353451351 c:\users\kevin\desktop\sfml\gamebackup1\player.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+
+1353441216 c:\users\kevin\desktop\sfml\gamebackup1\mkeyboard.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	<sstream>
+	"SFML/Window.hpp"
+	<cstdlib>
+
+1353457026 c:\users\kevin\desktop\sfml\gamebackup1\mycontactlistener.h
+	"Entity.h"
+
+1352241531 source:c:\users\kevin\desktop\sfml\gamebackup1\main.cpp
+	"screen_mainmenu.h"
+	"screen_setting.h"
+	"game.h"
+	"mKeyboard.h"
+
+1353441216 c:\users\kevin\desktop\sfml\gamebackup1\screen_mainmenu.h
+	"screen.h"
+	<iostream>
+	<cstring>
+	<string>
+	<windows.h>
+	<fstream>
+	"mKeyboard.h"
+
+1353441216 c:\users\kevin\desktop\sfml\gamebackup1\screen_setting.h
+	"screen.h"
+	"config.h"
+	"cpGUI/cpGUI.h"
+	<sstream>
+	"mKeyboard.h"
+
+1352173496 c:\users\kevin\desktop\sfml\gamebackup1\config.h
+	<fstream>
+	<vector>
+	"SFML/Audio.hpp"
+	"Screen.h"
+	<sstream>
+
+1352173497 c:\users\kevin\desktop\sfml\gamebackup1\cpgui\cpgui.h
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+	"cpImageButton.h"
+	"cpSelection-DropDownBox.h"
+	"cpShapeButton.h"
+	"cpTextBox.h"
+	"cpTextInputBox.h"
+
+1352204042 source:c:\users\kevin\desktop\sfml\gamebackup1\resourcemanager.cpp
+	"resourcemanager.h"
+
+1352173499 source:c:\users\kevin\desktop\sfml\gamebackup1\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1352173499 c:\users\kevin\desktop\sfml\gamebackup1\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1352173499 source:c:\users\kevin\desktop\sfml\gamebackup1\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1352173499 c:\users\kevin\desktop\sfml\gamebackup1\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1352173499 source:c:\users\kevin\desktop\sfml\gamebackup1\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1352173499 source:c:\users\kevin\desktop\sfml\gamebackup1\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1353454912 source:c:\users\kevin\desktop\sfml\gamebackup1\level.cpp
+	"level.h"
+	<iostream>
+	"tinyxml/tinyxml.h"
+
+1353451345 source:c:\users\kevin\desktop\sfml\gamebackup1\player.cpp
+	"Player.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\enemy.cpp
+	"Enemy.h"
+
+1353876318 c:\users\kevin\documents\github\game\enemy.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1353870123 c:\users\kevin\documents\github\game\entity.h
+
+1353870123 c:\users\kevin\documents\github\game\resourcemanager.h
+	<iostream>
+	<map>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1353870123 c:\users\kevin\documents\github\game\level.h
+	<string>
+	<vector>
+	<map>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"Box2D/Box2D.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\level.cpp
+	"level.h"
+	<iostream>
+	"tinyxml/tinyxml.h"
+
+1353870123 c:\users\kevin\documents\github\game\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1353870123 c:\users\kevin\documents\github\game\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1353870123 source:c:\users\kevin\documents\github\game\player.cpp
+	"Player.h"
+
+1353870123 c:\users\kevin\documents\github\game\player.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+
+1353870123 c:\users\kevin\documents\github\game\mkeyboard.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	<sstream>
+	"SFML/Window.hpp"
+	<cstdlib>
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cpcheckbox.cpp
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpgui_base.h
+	<cmath>
+	<cstring>
+	<fstream>
+	<map>
+	<sstream>
+	<vector>
+	<SFML/Graphics.hpp>
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpcheckbox.h
+	"cpGUI_base.h"
+	"cpButton.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpbutton.h
+	"cpObject.h"
+	"cpGuiContainer.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpobject.h
+	"cpGuiContainer.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpguicontainer.h
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cpgui_base.cpp
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+	"cpButton.h"
+	"cpScrollBar.h"
+	<stdexcept>
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpscrollbar.h
+	"cpGuiContainer.h"
+	"cpButton.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cpimagebutton.cpp
+	"cpGUI_base.h"
+	"cpImageButton.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpimagebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cpselection-dropdownbox.cpp
+	"cpGUI_base.h"
+	"cpSelection-DropDownBox.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpselection-dropdownbox.h
+	"cpGUI_base.h"
+	"cpScrollBar.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cpshapebutton.cpp
+	"cpGUI_base.h"
+	"cpShapeButton.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpshapebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cptextbox.cpp
+	"cpGUI_base.h"
+	"cpTextBox.h"
+	<cstring>
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cptextbox.h
+	"cpGUI_base.h"
+	"cpObject.h"
+	"cpScrollBar.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\cpgui\cptextinputbox.cpp
+	"cpGUI_base.h"
+	"cpTextInputBox.h"
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cptextinputbox.h
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\game.cpp
+	"game.h"
+	"mKeyboard.h"
+	"MyContactListener.h"
+	<SFML/Audio.hpp>
+
+1353870123 c:\users\kevin\documents\github\game\game.h
+	"screen.h"
+	<iostream>
+	"Box2D/Box2D.h"
+	"Level.h"
+	<sstream>
+	"Player.h"
+	"Enemy.h"
+
+1353870123 c:\users\kevin\documents\github\game\screen.h
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+
+1353875440 c:\users\kevin\documents\github\game\mycontactlistener.h
+	"Entity.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\main.cpp
+	"screen_mainmenu.h"
+	"screen_setting.h"
+	"game.h"
+	"mKeyboard.h"
+
+1353870123 c:\users\kevin\documents\github\game\screen_mainmenu.h
+	"screen.h"
+	<iostream>
+	<cstring>
+	<string>
+	<windows.h>
+	<fstream>
+	"mKeyboard.h"
+
+1353870123 c:\users\kevin\documents\github\game\screen_setting.h
+	"screen.h"
+	"config.h"
+	"cpGUI/cpGUI.h"
+	<sstream>
+	"mKeyboard.h"
+
+1353870123 c:\users\kevin\documents\github\game\config.h
+	<fstream>
+	<vector>
+	"SFML/Audio.hpp"
+	"Screen.h"
+	<sstream>
+
+1353870123 c:\users\kevin\documents\github\game\cpgui\cpgui.h
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+	"cpImageButton.h"
+	"cpSelection-DropDownBox.h"
+	"cpShapeButton.h"
+	"cpTextBox.h"
+	"cpTextInputBox.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\resourcemanager.cpp
+	"resourcemanager.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1353870123 source:c:\users\kevin\documents\github\game\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1355288333 c:\users\mastershihochief\documents\github\game\mycontactlistener.h
+	"Entity.h"
+	"projectiles.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"Possession_manager.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\terrain.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\terrain.cpp
+	"Terrain.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\enemy.cpp
+	"Enemy.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\enemy.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\entity.h
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\resourcemanager.h
+	<iostream>
+	<map>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\level.h
+	<string>
+	<vector>
+	<map>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"Box2D/Box2D.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\level.cpp
+	"level.h"
+	<iostream>
+	"tinyxml/tinyxml.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\player.cpp
+	"Player.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\player.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\mkeyboard.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	<sstream>
+	"SFML/Window.hpp"
+	<cstdlib>
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\terrain.cpp
+	"Terrain.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\terrain.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cpcheckbox.cpp
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpgui_base.h
+	<cmath>
+	<cstring>
+	<fstream>
+	<map>
+	<sstream>
+	<vector>
+	<SFML/Graphics.hpp>
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpcheckbox.h
+	"cpGUI_base.h"
+	"cpButton.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpbutton.h
+	"cpObject.h"
+	"cpGuiContainer.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpobject.h
+	"cpGuiContainer.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpguicontainer.h
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cpgui_base.cpp
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+	"cpButton.h"
+	"cpScrollBar.h"
+	<stdexcept>
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpscrollbar.h
+	"cpGuiContainer.h"
+	"cpButton.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cpimagebutton.cpp
+	"cpGUI_base.h"
+	"cpImageButton.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpimagebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cpselection-dropdownbox.cpp
+	"cpGUI_base.h"
+	"cpSelection-DropDownBox.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpselection-dropdownbox.h
+	"cpGUI_base.h"
+	"cpScrollBar.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cpshapebutton.cpp
+	"cpGUI_base.h"
+	"cpShapeButton.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpshapebutton.h
+	"cpGUI_base.h"
+	"cpObject.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cptextbox.cpp
+	"cpGUI_base.h"
+	"cpTextBox.h"
+	<cstring>
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cptextbox.h
+	"cpGUI_base.h"
+	"cpObject.h"
+	"cpScrollBar.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\cpgui\cptextinputbox.cpp
+	"cpGUI_base.h"
+	"cpTextInputBox.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cptextinputbox.h
+	"cpGUI_base.h"
+	"cpGuiContainer.h"
+	"cpObject.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\game.cpp
+	"game.h"
+	"mKeyboard.h"
+	"MyContactListener.h"
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+	"Terrain.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\game.h
+	"screen.h"
+	<iostream>
+	"Box2D/Box2D.h"
+	"Level.h"
+	<sstream>
+	"Player.h"
+	"Enemy.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\screen.h
+	<SFML/Audio.hpp>
+	"resourcemanager.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\mycontactlistener.h
+	"Entity.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\main.cpp
+	"screen_mainmenu.h"
+	"screen_setting.h"
+	"game.h"
+	"mKeyboard.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\screen_mainmenu.h
+	"screen.h"
+	<iostream>
+	<cstring>
+	<string>
+	<windows.h>
+	<fstream>
+	"mKeyboard.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\screen_setting.h
+	"screen.h"
+	"config.h"
+	"cpGUI/cpGUI.h"
+	<sstream>
+	"mKeyboard.h"
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\config.h
+	<fstream>
+	<vector>
+	"SFML/Audio.hpp"
+	"Screen.h"
+	<sstream>
+
+1354088598 c:\users\wesley nanjo\desktop\game-master\cpgui\cpgui.h
+	"cpGUI_base.h"
+	"cpCheckBox.h"
+	"cpImageButton.h"
+	"cpSelection-DropDownBox.h"
+	"cpShapeButton.h"
+	"cpTextBox.h"
+	"cpTextInputBox.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\resourcemanager.cpp
+	"resourcemanager.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1354088598 source:c:\users\wesley nanjo\desktop\game-master\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1354170422 source:c:\users\wesley nanjo\desktop\game-master\weapons.cpp
+	"Weapons.h"
+
+1354169702 c:\users\wesley nanjo\desktop\game-master\weapons.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"Enemy.h"
+	"Player.h"
+	"Terrain.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\weapons.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"Enemy.h"
+	"Player.h"
+	"Terrain.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\weapons.cpp
+	"Weapons.h"
+
+1354822013 source:c:\users\kevin\desktop\sfml\game\terrain.cpp
+	"Terrain.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\terrain.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Level.h"
+
+1354823751 source:c:\users\kevin\desktop\sfml\game\weapons.cpp
+	"Weapons.h"
+
+1354822013 c:\users\kevin\desktop\sfml\game\weapons.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"Enemy.h"
+	"Player.h"
+	"Terrain.h"
+
+1354839376 source:c:\users\kevin\desktop\sfml\game\possesion_manager.cpp
+	"Possesion_manager.h"
+
+1354839320 c:\users\kevin\desktop\sfml\game\possesion_manager.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+	"player.h"
+
+1355267964 source:c:\users\kevin\desktop\sfml\game\possession_manager.cpp
+	"Possession_manager.h"
+
+1354840081 c:\users\kevin\desktop\sfml\game\possession_manager.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+	"player.h"
+
+1355267252 c:\users\kevin\desktop\sfml\game\projectiles.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Enemy.h"
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+
+1355271837 source:c:\users\kevin\desktop\sfml\game\projectiles.cpp
+	"projectiles.h"
+
+1355270611 source:c:\users\kevin\desktop\sfml\game\projectile_manager.cpp
+	"projectile_manager.h"
+
+1355267969 c:\users\kevin\desktop\sfml\game\projectile_manager.h
+	"projectiles.h"
+	"Player.h"
+	"Enemy.h"
+
+1355209621 source:c:\users\kevin\desktop\sfml\game\decay_timer.cpp
+	"decay_timer.h"
+
+1355209074 c:\users\kevin\desktop\sfml\game\decay_timer.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+
+1355288333 c:\users\mastershihochief\documents\github\game\decay_timer.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\possession_manager.cpp
+	"Possession_manager.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\possession_manager.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+	"enemy.h"
+	"player.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\decay_timer.cpp
+	"decay_timer.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\projectiles.h
+	"entity.h"
+	"resourcemanager.h"
+	<math.h>
+	<Box2D/Box2D.h>
+	"Enemy.h"
+	"SFML/Window.hpp"
+	"mKeyboard.h"
+
+1355288333 c:\users\mastershihochief\documents\github\game\projectile_manager.h
+	"projectiles.h"
+	"Player.h"
+	"Enemy.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\projectile_manager.cpp
+	"projectile_manager.h"
+
+1355288333 source:c:\users\mastershihochief\documents\github\game\projectiles.cpp
+	"projectiles.h"
+
